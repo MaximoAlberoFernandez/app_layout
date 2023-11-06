@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 void main() {
   return runApp(MaterialApp(
     home: Scaffold(
-      appBar: AppBar(title: Text("Hello, World!")),
+      appBar: AppBar(title: Text("Hello, World!"),
+      backgroundColor: Color.fromARGB(255, 26, 152, 255),
+      ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.stretch,
